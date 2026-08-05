@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerAssist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>CareerAssist</h1>
+    <p>Your AI-powered job application assistant</p>
+</header>
+
+<section class="container">
+
+    <h2>Resume Profile</h2>
+
+    <textarea id="resumeInput" placeholder="Paste your resume information here..."></textarea>
+
+    <h2>Job Description</h2>
+
+    <textarea id="jobInput" placeholder="Paste the job description here..."></textarea>
+
+    <button onclick="analyzeJob()">Analyze Match</button>
+
+    <div id="results">
+        <h2>Results</h2>
+        <p id="output">Your analysis will appear here.</p>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
